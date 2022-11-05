@@ -3,15 +3,9 @@ import Link from "next/link"
 
 const Home: NextPage = () => {
 	return (
-		<div className="flex flex-col bg-blue-400 w-full min-h-full justify-center items-center">
-			<div className="font-extrabold text-5xl my-7">Hey my name is Arron!</div>
-			<div className="font-extrabold text-5xl">This is my portfolio page</div>
-			<Link
-				href="/about-me"
-				className="bg-pink-200 p-3 rounded-md flex justify-center items-center m-7 hover:bg-pink-700"
-			>
-				ClickMe
-			</Link>
+		<div className="flex flex-col w-full h-full justify-center items-center text-center">
+			<div className="font-bold text-5xl my-7">Hey my name is Arron!</div>
+			<div className="font-bold text-5xl mb-7">This is my portfolio page</div>
 		</div>
 	)
 }

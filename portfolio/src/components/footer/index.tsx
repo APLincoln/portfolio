@@ -3,7 +3,7 @@ import iconLinkedIn from "../../assets/linkedin.png"
 import iconGit from "../../assets/github.png"
 
 const Footer = () => (
-	<div className="flex h-20 justify-evenly items-center bg-orange-300 mt-auto">
+	<div className="flex h-20 justify-evenly items-center bg-gray-800 mt-auto">
 		<a href="https://www.linkedin.com/in/arron-lincoln-214494195/">
 			<Image src={iconLinkedIn} alt="linkedin" height="40" width="40" />
 		</a>

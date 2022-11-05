@@ -6,9 +6,9 @@ const Layout = (props: PropsWithChildren) => {
 	const something = null
 
 	return (
-		<div className="flex flex-col min-h-screen">
+		<div className="flex flex-col min-h-screen bg-black text-white">
 			<Header />
-			<div className="min-h-[calc(100vh-10rem)]">{props.children}</div>
+			<div className="h-full">{props.children}</div>
 			<Footer />
 		</div>
 	)
