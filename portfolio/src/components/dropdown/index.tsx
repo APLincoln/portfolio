@@ -1,16 +1,6 @@
 import { useState } from "react"
 import { Bars3Icon } from "@heroicons/react/24/outline"
 
-type DropData = {
-	title: string
-	link: string
-}
-
-interface DropDownProps {
-	link: string
-	title: string
-}
-
 const DropDown = () => {
 	const [isDropped, setIsDropped] = useState(false)
 	const dropDownLinks: { link: string; title: string }[] = [
